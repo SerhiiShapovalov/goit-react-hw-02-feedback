@@ -34,7 +34,7 @@ class App extends Component {
       result = Math.ceil((goodFeedback / totalFeedback) * 100);
     }
 
-    return `${result}%`;
+    return ` ${result}%`;
   };
 
   render() {
