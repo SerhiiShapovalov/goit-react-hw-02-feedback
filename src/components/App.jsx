@@ -26,7 +26,7 @@ class App extends Component {
     let result = 0;
 
     if (totalFeedback > 0) {
-      result = Math.ceil((goodFeedback / totalFeedback) * 100);
+      result = Math.round((goodFeedback / totalFeedback) * 100);
     }
 
     return ` ${result}%`;
